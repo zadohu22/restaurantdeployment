@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid black;
+  padding: 80px;
+  background-image: url(/src/markus-spiske-kK7uPfb2YWU-unsplash.jpg);
+  background-position: top;
+}
+
+.titleContainer {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: black;
+}
+
+.headerContainer h1 {
+  color: white;
+}
+
+.bodyContainer {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hoursContainer {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.locationContainer {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
