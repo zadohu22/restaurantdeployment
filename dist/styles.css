@@ -9,7 +9,7 @@
 }
 
 :root {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 body {
@@ -86,12 +86,23 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.homeTitle {
+  color: white;
+  position: relative;
+  top: 50px;
+  text-decoration: underline;
 }
 
 .bodyContainer {
@@ -181,6 +192,8 @@ body {
 .menuContainer {
   width: 70%;
   height: 90%;
+  position: relative;
+  top: 100px;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 10px;
@@ -198,6 +211,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+}
+
+.menuTitle {
+  color: white;
+  text-decoration: underline;
 }
 
 .bowlOfScrews {
@@ -246,5 +265,62 @@ body {
   text-decoration: none;
   cursor: text;
   color: #3a50b3;
+}
+
+.contactContainer {
+  width: 700px;
+  height: 500px;
+  border: 1px solid white;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  position: relative;
+  bottom: 20px;
+}
+
+.contactTitle {
+  color: white;
+  position: relative;
+  text-decoration: underline;
+  bottom: 110px;
+}
+
+.contactInfo {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.phone {
+  margin-top: 20px;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.contactPicture {
+  height: 100%;
+  width: 50%;
+  background-image: url(/dist/rock-n-roll-monkey-FTfjMijq-Ws-unsplash.png);
+  background-position: center;
 }
 /*# sourceMappingURL=styles.css.map */

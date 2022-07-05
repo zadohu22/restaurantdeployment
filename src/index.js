@@ -1,8 +1,9 @@
-// import './styles.css';
+
 
 
 import { loadHomePage } from "./home";
 import { loadMenuPage } from "./menu";
+import { loadContactPage } from "./contact";
 import { loadHeaderNav } from "./pageLoad";
 
 loadHeaderNav();
@@ -10,6 +11,9 @@ loadHomePage();
 
 const homeButton = document.getElementById("home");
 const menuButton = document.getElementById("menu");
+const contactButton = document.getElementById('contact');
+const content = document.getElementById("content");
+
 
 homeButton.addEventListener('click', () => {
     page.innerHTML = '';
@@ -22,9 +26,12 @@ menuButton.addEventListener('click', () => {
     loadMenuPage();
 });
 
+contactButton.addEventListener('click', () => {
+    page.innerHTML = '';
+    loadContactPage();
+})
 
-const content = document.getElementById("content");
-const thePage = document.getElementById("page");
+
 
 
 
@@ -34,12 +41,7 @@ content.appendChild(page);
 // loadHomePage();
 
 
-// const contactButton = document.getElementById("contact");
 
-
-
-
-// contactButton.addEventListener('click', () => { import { loadContactPage } from "./contact"})
 
 
 

@@ -3,7 +3,10 @@ const loadHomePage = () => {
     const page = document.getElementById('page');
     
     
-    page.innerHTML = `<div class="bodyContainer">
+    page.innerHTML = `
+    <h1 class="homeTitle"> HOME </h1>
+    <div class="bodyContainer">
+    
     <div class="hoursContainer">
         <h3>HOURS OF OPERATION:</h3>
         <p>YES</p>

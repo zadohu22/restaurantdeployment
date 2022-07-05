@@ -2,7 +2,10 @@ const loadMenuPage = () => {
     const content = document.getElementById('content');
     const page = document.getElementById('page');
 
-    page.innerHTML = `<div class="menuContainer">
+    page.innerHTML = `
+    <h1 class="menuTitle"> MENU </h1>
+    <div class="menuContainer">
+    
     <div class="bowlOfScrews"></div>
     <h1>SOUP</h1>
 
