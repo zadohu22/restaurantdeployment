@@ -33,7 +33,7 @@ contactButton.addEventListener('click', () => {
 
 
 
-
+console.log('test');
 
 content.appendChild(page);
 
